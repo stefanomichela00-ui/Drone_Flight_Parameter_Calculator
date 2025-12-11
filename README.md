@@ -1,6 +1,6 @@
 # 🚁 Generic Multi-Rotor Flight Parameter Calculator
 
-#### Video Demo: [<URL HERE>](https://youtu.be/T8Pe6_jvSnI)
+#### Video Demo: [<URL HERE>](https://youtu.be/T8Pe6_jvSnI) 
 
 #### Description:
 
@@ -19,3 +19,4 @@ The core calculations involve the following steps:
     $$I_{motor} = \frac{\text{Torque}}{K_{t}} + I_{no\_load}$$
 
 3.  **Flight Time:** Sums the current draw for all motors to find the total current consumption ($I_{total}$), which is then used to estimate the maximum flight time based on the battery's usable capacity (mAh).
+
