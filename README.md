@@ -1,6 +1,6 @@
 # 🚁 Generic Multi-Rotor Flight Parameter Calculator
 
-#### Video Demo: <URL HERE>
+#### Video Demo: [<URL HERE>](https://youtu.be/T8Pe6_jvSnI)
 
 #### Description:
 
@@ -17,4 +17,5 @@ The core calculations involve the following steps:
 1.  **Total Thrust:** Calculates the total thrust required to counteract gravity ($T_{total} = M_{kg} \cdot g$).
 2.  **Current Draw ($I$):** Calculates the motor's current draw by relating the mechanical power to the torque and the motor's electrical constants ($KV$, $R_m$). This accounts for both the load current and the no-load current ($I_{no\_load}$), providing the current for a single motor:
     $$I_{motor} = \frac{\text{Torque}}{K_{t}} + I_{no\_load}$$
+
 3.  **Flight Time:** Sums the current draw for all motors to find the total current consumption ($I_{total}$), which is then used to estimate the maximum flight time based on the battery's usable capacity (mAh).
